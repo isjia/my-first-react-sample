@@ -5,6 +5,8 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Welcome from './Welcome'
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<Welcome />, document.getElementById('root'));
 registerServiceWorker();

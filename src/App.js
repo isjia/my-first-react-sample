@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NameCard from './components/NameCard'
+import LikesButton from './components/LikesButton'
 
 const tags = ['恐龙', '足球小子']
 
@@ -17,6 +18,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <NameCard name="Hacker" number={1234567890} isHuman tags={ tags } />
+        <br />
+        <LikesButton />
       </div>
     );
   }
